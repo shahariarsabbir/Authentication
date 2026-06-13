@@ -1,0 +1,14 @@
+.bg {
+	background-color: rgb(10, 24, 72);
+	color: white;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 40vw;
+	align-items: center;
+	margin: 0 auto;
+	border: 5px solid rgb(57, 57, 219);
+	padding: 20px;
+}

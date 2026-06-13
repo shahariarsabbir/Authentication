@@ -1,0 +1,16 @@
+.main {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+.main-section {
+	grid-template-columns: repeat(1fr);
+	gap: 40px;
+	margin: 100px 50px;
+	display: grid;
+	background-color: blueviolet;
+}
+.main-outer-section {
+	background-color: rgb(230, 85, 27);
+	height: 60vh;
+	margin: 100px 20px;
+}
