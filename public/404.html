@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<script>
+			var l = window.location
+			l.replace(
+				l.protocol +
+					'//' +
+					l.host +
+					l.pathname.split('/').slice(0, 1).join('/') +
+					'/?/' +
+					l.pathname.slice(1) +
+					(l.search ? '&' + l.search.slice(1) : '') +
+					l.hash,
+			)
+		</script>
+	</head>
+</html>
